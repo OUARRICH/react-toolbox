@@ -1,0 +1,102 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border-color: rgba(7, 112, 237, 0.60);
+  --green-emerald: #0FA846;
+  --cerulean-blue: #0770ED;
+  --ruby-red: #C51B32;
+  --ligth-gray: #D3D3D3;
+  --orange: #ff7f00;
+  --white: #fff;
+
+  --desktop-padding-container: 16px;
+  --mobile-padding-container: 8px;
+
+  --border-radius: 0.5rem;
+}
+
+body {
+  font-family:Roboto, Helvetica, sans-serif;
+}
+
+@layer components {
+  /* SPAN */
+
+  .spanSubscriptionErrorClass {
+    @apply text-xs text-red-500 hidden;
+  }
+  .spanMailUnavailableErrorClass {
+    @apply text-xs text-red-500 font-bold;
+  }
+
+  .spanDifferentPasswordSubscriptionErrorClass {
+    @apply text-xs text-red-500;
+  }
+
+  /* INPUT */
+  .inputClass {
+    @apply text-center w-full font-bold text-blue-900 border-blue-300 border-[0.4px] bg-transparent outline-none outline-dashed focus:outline-white/10;
+  }
+
+  .inputRegisterClass {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500            valid:[&:not(:placeholder-shown)]:border-green-500 [&:not(:placeholder-shown):not(:focus):invalid~span]:block invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-400;
+  }
+
+  .inputRegisterClassInvalid {
+    @apply bg-gray-50 border text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500  border-red-400;
+  }
+
+  /* DIV */
+  .divBigContainerClass {
+    @apply flex flex-col justify-center h-screen items-center bg-white;
+  }
+
+  .divMainContainerClass {
+    @apply mb-5 mt-5 w-[510px] h-[670px] flex flex-col justify-between items-stretch  px-6 bg-white rounded-lg border-2 border-white shadow-lg;
+  }
+
+  .divMainContainerLoginClass {
+    @apply mb-5 mt-5 w-[510px] h-[470px] flex flex-col justify-between items-stretch  px-6 bg-white rounded-lg border-2 border-white shadow-lg;
+  }
+
+  .divMainContainerResetPasswordClass {
+    @apply mb-5 mt-5 w-[510px] h-[370px] flex flex-col justify-between items-stretch  px-6 bg-white rounded-lg border-2 border-white shadow-lg;
+  }
+  
+  /* LABEL */
+  .labelCreerProfilClass {
+    @apply mt-2 w-full pb-2 border-t-blue-300 border-b-[0.4px] text-sm font-bold text-center;
+  }
+}
+
+a {
+  color: #0770ed;
+  font-size: 1rem;
+  text-decoration-line: underline;
+}
+
+h2, h3, h5 {
+  color: #0770ED;
+  font-style: normal;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 500;
+}

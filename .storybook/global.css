@@ -1,0 +1,14 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+    font-family: Roboto,sans-serif;
+}
+
+:root {
+    --border-color: rgba(7, 112, 237, 0.60);
+    --green-emerald: #0FA846;
+    --ruby-red: #C51B32;
+    --white: #fff;
+
+    --border-radius: 0.5rem;
+}

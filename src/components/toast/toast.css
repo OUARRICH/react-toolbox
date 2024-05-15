@@ -1,0 +1,20 @@
+.CustomToast {
+    @apply p-3 my-2 rounded absolute top-0 right-0;
+    z-index: 10000;
+}
+
+.CustomToast__header {
+    color: #000 !important;
+}
+
+.CustomToast__header--success {
+    background-color: var(--green-emerald) !important;
+}
+
+.CustomToast__header--error {
+    background-color: var(--ruby-red) !important;
+}
+
+.CustomToast__body {
+    background-color: var(--white);
+}

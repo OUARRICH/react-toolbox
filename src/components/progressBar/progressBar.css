@@ -1,0 +1,17 @@
+.progressBar { 
+    @apply w-full bg-neutral-200; 
+    border-radius: var(--border-radius);
+} 
+
+.progressBar div {   
+    @apply p-1 text-center text-xs text-primary-100 ; 
+    border-radius: var(--border-radius); 
+}
+
+.ProgressBar--success {
+    background-color: var(--green-emerald);
+}
+
+.ProgressBar--warning {
+    background-color: var(--orange);
+}

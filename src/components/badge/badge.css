@@ -1,0 +1,25 @@
+.Badge {
+    color: #fff;
+    padding: 2px 16px;
+    border-radius: 32px;
+}
+
+.Badge--basic {
+    background-color: #0770ED;
+}
+
+.Badge--guild {
+    background-color: #0FA846;
+}
+
+.Badge--secondary {
+    background-color: #00DDE3;
+}
+
+.Badge--info {
+    background-color:#4D3C79;
+}
+
+.Badge--active {
+    background-color:#F8A431;
+}

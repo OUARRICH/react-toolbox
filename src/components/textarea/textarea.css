@@ -1,0 +1,23 @@
+.Textarea {
+    width: 100%;
+}
+
+.Textarea textarea {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    appearance: none;
+}
+
+.Textarea textarea {
+    width: inherit;
+    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    resize: vertical;
+    border: 2px solid rgba(7, 112, 237, 0.60);
+    color: #0770ED;
+    width: 100%;
+}

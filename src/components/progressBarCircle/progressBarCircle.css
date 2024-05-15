@@ -1,0 +1,42 @@
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+  
+.circle-background {
+  stroke: var(--ligth-gray);
+}
+  
+.circle-progress {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+  
+.circle-text {
+  font-size: 3em;
+  font-weight: bold;
+  fill: var(--cerulean-blue);
+}
+
+
+.progress-bar-circle-container {
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 3.25rem;
+  font-weight: 600;
+}
+
+.ProgressBarCircle--success {
+  color: var(--green-emerald);
+  stroke: var(--green-emerald);
+}
+
+.ProgressBarCircle--warning {
+  color: var(--orange);
+  stroke: var(--orange);
+}

@@ -1,0 +1,20 @@
+.file-upload-container {
+    display: flex;
+  }
+  
+  .file-upload-button {
+    display: flex;
+    align-items: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 8px;
+  }
+  

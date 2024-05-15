@@ -1,0 +1,5 @@
+.error {
+  color: var(--ruby-red);
+  display: block;
+  @apply mb-4;
+}

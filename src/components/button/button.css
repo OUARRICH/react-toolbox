@@ -1,0 +1,55 @@
+.Button, button[type='submit'] {
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: #0770ED;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 0.5rem 1.8rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Button__icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.Button--primary {
+    background: #F8A431;
+}
+
+.Button--secondary {
+    background: #00DDE3;
+}
+
+.Button--danger {
+    background: #C51B32;
+}
+
+.Button--success {
+    background-color: #0FA846;
+}
+
+.Button--info {
+    background-color: #4D3C79;
+}
+
+.Button--accent {
+    background-color: #FFF;
+    color: #00DDE3;
+    border: solid 1px #00DDE3;
+}
+
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
